@@ -2,7 +2,7 @@
 import Hero from '@/components/sections/Hero.vue'
 import TechStack from '@/components/sections/TechStack.vue'
 import About from '@/components/sections/About.vue'
-import Projects from '@/components/sections/Projects.vue'
+import FeatureProjects from '@/components/sections/FeatureProjects.vue'
 import Contact from '@/components/sections/Contact.vue'
 import Footer from '@/components/sections/Footer.vue'
 
@@ -12,7 +12,7 @@ import Footer from '@/components/sections/Footer.vue'
     <Hero />
     <TechStack />
     <About/>
-    <Portfolio />
+    <FeatureProjects />
     <Contact />
     <Footer />
 </template>
