@@ -52,7 +52,7 @@ const navigation = [
     {
         id: "project",
         name: "Projects",
-        href: '#projects',
+        href: '#feature-projects',
     },
     {
         id: "contact",
