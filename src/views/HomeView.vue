@@ -1,18 +1,18 @@
 <script setup>
-import Hero from '@/components/sections/Hero.vue'
-import TechStack from '@/components/sections/TechStack.vue'
-import About from '@/components/sections/About.vue'
-import FeatureProjects from '@/components/sections/FeatureProjects.vue'
-import Contact from '@/components/sections/Contact.vue'
-import Footer from '@/components/sections/Footer.vue'
+import HeroSection from '@/components/sections/HeroSection.vue'
+import TechStackSection from '@/components/sections/TechStackSection.vue'
+import AboutSection from '@/components/sections/AboutSection.vue'
+import ProjectsSection from '@/components/sections/ProjectsSection.vue'
+import ContactSection from '@/components/sections/ContactSection.vue'
+import FooterSection from '@/components/sections/FooterSection.vue'
 
 </script>
 
 <template>
-    <Hero />
-    <TechStack />
-    <About/>
-    <FeatureProjects />
-    <Contact />
-    <Footer />
+    <HeroSection />
+    <TechStackSection />
+    <AboutSection />
+    <ProjectsSection />
+    <ContactSection />
+    <FooterSection />
 </template>
