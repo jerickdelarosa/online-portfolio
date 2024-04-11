@@ -1,44 +1,36 @@
 <template>
-    <section id="techstack">
-        <div class="w-100 bg-slate-200">
-            <div class="max-w-full px-16 py-8">
-                <div class="px-5 py-2 text-center">
-                    <p class="text-xl font-semibold">Tech Stack</p>
+    <section id="techstack" class="bg-inherit antialiased">
+        <div class="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 md:py-4 lg:px-6 lg:pt-16">
+            <div class="max-w-2xl mx-auto text-center mb-5">
+                <h2 class="text-xl text-[#0E6CC2] font-extrabold uppercase">
+                    Tech Stack
+                </h2>
+                <div class="card flex justify-content-center">
                 </div>
-                <div class="p-5 flex justify-center items-center">
-                    <ul class="flex flex-wrap list-none gap-10 justify-center">
-                        <li class="stack--wrapper flex justify-center gap-3">
-                            <img 
-                            class="object-fill w-12 h-12"
-                            v-for="stack in stack1" :key="stack.id"
-                            :src="stack.icon" :alt="stack.id"/>
-                        </li>
-                        <li class="stack--wrapper flex justify-center gap-3">
-                            <img 
-                            class="object-fill w-12 h-12"
-                            v-for="stack in stack2" :key="stack.id"
-                            :src="stack.icon" :alt="stack.id"/>
-                        </li>
-                        <li class="stack--wrapper flex justify-center gap-3">
-                            <img 
-                            class="object-fill w-12 h-12"
-                            v-for="stack in stack3" :key="stack.id"
-                            :src="stack.icon" :alt="stack.id"/>
-                        </li>
-                        <li class="stack--wrapper flex justify-center gap-3">
-                            <img 
-                            class="object-fill w-12 h-12"
-                            v-for="stack in stack4" :key="stack.id"
-                            :src="stack.icon" :alt="stack.id"/>
-                        </li>
-                        <li class="stack--wrapper flex justify-center gap-3">
-                            <img 
-                            class="object-fill w-12 h-12"
-                            v-for="stack in stack5" :key="stack.id"
-                            :src="stack.icon" :alt="stack.id"/>
-                        </li>
-                    </ul>
-                </div>
+            </div>
+            <div class="p-5 flex justify-center items-center">
+                <ul class="flex flex-wrap list-none gap-10 justify-center">
+                    <li class="stack--wrapper flex justify-center gap-3">
+                        <img class="object-fill w-12 h-12" v-for="stack in stack1" :key="stack.id" :src="stack.icon"
+                            :alt="stack.id" />
+                    </li>
+                    <li class="stack--wrapper flex justify-center gap-3">
+                        <img class="object-fill w-12 h-12" v-for="stack in stack2" :key="stack.id" :src="stack.icon"
+                            :alt="stack.id" />
+                    </li>
+                    <li class="stack--wrapper flex justify-center gap-3">
+                        <img class="object-fill w-12 h-12" v-for="stack in stack3" :key="stack.id" :src="stack.icon"
+                            :alt="stack.id" />
+                    </li>
+                    <li class="stack--wrapper flex justify-center gap-3">
+                        <img class="object-fill w-12 h-12" v-for="stack in stack4" :key="stack.id" :src="stack.icon"
+                            :alt="stack.id" />
+                    </li>
+                    <li class="stack--wrapper flex justify-center gap-3">
+                        <img class="object-fill w-12 h-12" v-for="stack in stack5" :key="stack.id" :src="stack.icon"
+                            :alt="stack.id" />
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
@@ -50,29 +42,31 @@ import {
     aspnet,
     blazor,
     bootstrap,
-    dotnet,
     laravel,
     sass,
     tailwind,
     typescript,
-    vueIcon
+    vueIcon,
+    html,
+    css,
+    javascript
 } from '@/assets/stack-icons/index'
 
 const stack1 = [
     {
         id: "stack-1",
-        icon: vueIcon
+        icon: html
     },
     {
         id: "stack-2",
-        icon: angular
+        icon: css
     }
 ]
 
 const stack2 = [
     {
         id: "stack2-1",
-        icon: typescript
+        icon: javascript
     },
     {
         id: "stack2-2",
@@ -113,11 +107,11 @@ const stack5 = [
     },
     {
         id: "stack5-2",
-        icon: bootstrap
+        icon: sass
     },
     {
         id: "stack5-3",
-        icon: sass
+        icon: bootstrap
     }
 ]
 </script>
