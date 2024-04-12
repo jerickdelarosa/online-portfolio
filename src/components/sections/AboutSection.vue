@@ -6,8 +6,8 @@
                     <div
                         class="space-y-6 lg:space-y-0 lg:flex md:gap-6 lg:items-center lg:gap-12 text-center lg:text-start">
                         <div class="md:5/12 lg:w-6/12 md:max-w-[32rem] mx-auto flex justify-center">
-                            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                alt="image" loading="lazy" width="" height="" class="rounded-lg">
+                            <img :src="codingLaptopImg" alt="image" loading="lazy" width="" height=""
+                                class="rounded-lg">
                         </div>
                         <div class="md:7/12 lg:w-6/12 md:max-w-[32rem] mx-auto">
                             <h2 class="text-xl text-[#0E6CC2] font-extrabold uppercase">About Me</h2>
@@ -28,7 +28,7 @@
                                             <span class="font-extrabold">{{ feature.name }}</span>
                                         </dt>
                                         <dd class="mt-2 text-base leading-7 text-gray-600 text-justify">{{
-                                        feature.description }}</dd>
+                                feature.description }}</dd>
                                     </div>
                                 </dl>
                             </div>
@@ -42,6 +42,7 @@
 
 <script setup>
 import { LightBulbIcon, CodeBracketIcon } from '@heroicons/vue/24/outline'
+import { codingLaptopImg } from '@/assets/images/index'
 
 const features = [
     {
