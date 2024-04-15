@@ -6,16 +6,16 @@
                 <!-- <div class="lg:max-w-lg lg:w-full mb-5 md:mb-0 md:w-1/2 w-3/6 md:order-2 flex justify-center"> -->
                 <div class="lg:w-full mb-0 flex justify-center lg:order-2">
                     <img class="object-cover object-center rounded-full w-60 h-60 xs:w-72 xs:h-72 lg:w-80 lg:h-80 border-4 border-gray-700"
-                        alt="hero_img" src="https://jerickdelarosa.vercel.app/assets/jedero-62cde2ee.jpg">
+                        alt="hero_img" :src="heroImage">
                 </div>
                 <div
-                    class="lg:flex-grow mt-4 mb-12 md:mb-6 lg:mb-0 lg:mt-0 lg:w-1.5/2 lg:pr-4 lg:pl-8 xl:pl-12 flex flex-col lg:items-start lg:text-left items-center text-center lg:order-1">
+                    class="lg:flex-grow mt-12 mb-12 md:mb-6 lg:mb-0 lg:mt-0 lg:w-1.5/2 lg:pr-12 lg:pl-8 xl:pl-12 flex flex-col lg:items-start lg:text-left items-center text-center lg:order-1">
                     <h1
                         class="text-3xl font-extrabold leading-9 tracking-tight mb-3 text-gray-900 sm:text-4xl sm:leading-10 md:text-5xl md:leading-normal">
                         Hi, I'm Jerick
                     </h1>
                     <p class="mb-8 pl-2 pr-2  lg:px-0 leading-relaxed">
-                        A full stack web developer with passion for web development, based in Bulacan, Philippines
+                        A full-stack web developer with passion for web development, based in Bulacan, Philippines
                     </p>
                     <div class="flex justify-center gap-3">
                         <a v-for="link in mediaLinks" :key="link.id" :href="link.href"
@@ -33,6 +33,7 @@
 
 <script setup>
 import TechStackSection from '@/components/sections/TechStackSection.vue'
+import { heroImage } from '@/assets/images'
 import { linkedinBlackLogo, githubBlackLogo } from '@/assets/icons';
 
 const mediaLinks = [
