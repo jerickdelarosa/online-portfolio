@@ -12,8 +12,7 @@
           </DisclosureButton>
         </div>
         <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between">
-          <div class="flex flex-shrink-0 items-center"><!-- 
-            <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" /> -->
+          <div class="flex flex-shrink-0 items-center">
             <p class="sm:ml-4 xl:ml-0 text-gray-700 font-extrabold text-xl tracking-wider select-none">JEDERO</p>
           </div>
           <div class="hidden sm:ml-6 sm:block">
