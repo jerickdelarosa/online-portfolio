@@ -17,7 +17,7 @@ const router = createRouter({
         navigation: MainNav,
       },
       meta: {
-        title: 'Test',
+        title: 'Jerick Dela Rosa',
       }
     },
     {
