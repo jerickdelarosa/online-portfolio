@@ -21,14 +21,13 @@ const router = createRouter({
       }
     },
     {
-      path: '/section',
-      name: 'section',
+      path: '/helloworld',
+      name: 'hello-world',
       // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/SectionView.vue'),
+      component: () => import('../views/HelloWorldView.vue'),
       meta: {
-        title: 'Section',
+        title: 'Hello World',
       }
     },
     {
