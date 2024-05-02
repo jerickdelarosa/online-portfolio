@@ -30,6 +30,10 @@
                         <img class="object-fill w-12 h-12" v-for="stack in stack5" :key="stack.id" :src="stack.icon"
                             :alt="stack.id" />
                     </li>
+                    <li class="stack--wrapper flex justify-center gap-3">
+                        <img class="object-fill w-12 h-12" v-for="stack in stack6" :key="stack.id" :src="stack.icon"
+                            :alt="stack.id" />
+                    </li>
                 </ul>
             </div>
         </div>
@@ -49,7 +53,9 @@ import {
     vueIcon,
     html,
     css,
-    javascript
+    javascript,
+    mysql,
+    mssql
 } from '@/assets/stack-icons/index'
 
 const stack1 = [
@@ -102,6 +108,17 @@ const stack4 = [
 
 const stack5 = [
     {
+        id: "stack6-1",
+        icon: mysql
+    },
+    {
+        id: "stack6-2",
+        icon: mssql
+    }
+]
+
+const stack6 = [
+    {
         id: "stack5-1",
         icon: tailwind
     },
@@ -114,6 +131,8 @@ const stack5 = [
         icon: bootstrap
     }
 ]
+
+
 </script>
 
 <style lang="scss" scoped>

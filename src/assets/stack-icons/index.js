@@ -11,6 +11,8 @@ import vueIcon from './vue.svg'
 import html from './html.svg'
 import css from './css.svg'
 import javascript from './javasript.svg'
+import mysql from './mysql.svg'
+import mssql from './microsoft-sql.svg'
 
 export {
     angular,
@@ -25,5 +27,7 @@ export {
     vueIcon,
     html,
     css,
-    javascript
+    javascript,
+    mysql,
+    mssql
 }
