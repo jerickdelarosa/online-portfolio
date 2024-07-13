@@ -13,6 +13,7 @@ import css from './css.svg'
 import javascript from './javasript.svg'
 import mysql from './mysql.svg'
 import mssql from './microsoft-sql.svg'
+import codeigniter from './codeigniter.svg'
 
 export {
     angular,
@@ -29,5 +30,6 @@ export {
     css,
     javascript,
     mysql,
-    mssql
+    mssql,
+    codeigniter
 }
