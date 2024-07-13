@@ -13,7 +13,7 @@
             <div class="py-16">
                 <div class="container mx-auto text-gray-600 md:px-12 xl:px-6">
                     <div :class="`space-y-6 lg:space-y-0 lg:flex lg:items-center lg:gap-12 ${(projectList.length - 1) > index ? 'mb-20' : ''}  text-center lg:text-start`"
-                        v-for="(project, index) in projectList" :key="`project-${index}`">
+                        v-for="(project, index) in projectList.reverse()" :key="`project-${index}`">
                         <template v-if="project.img != null">
                             <div
                                 :class="`lg:w-6/12 ${(index %= 2) == 0 ? 'order-1 lg:order-2' : ''} flex justify-center lg:bg-slate-200 rounded-lg hover:opacity-75`">
@@ -40,13 +40,13 @@
                             </div>
                         </template>
                         <div :class="`lg:w-6/12 ${(index %= 2) == 0 ? 'order-2 lg:order-1' : ''}`">
-                            <h1 class="font-extrabold uppercase text-2xl mb-5 text-[#2d2e32]">{{ project.title }}</h1>
-                            <p class="mt-2 text-gray-600  mx-auto lg:mx-0 text-justify"> {{ project.description }} </p>
-                            <div class="mt-6 flex justify-center lg:justify-start gap-1 flex-wrap">
+                            <h1 class="font-extrabold uppercase text-2xl mb-2 text-[#2d2e32]">{{ project.title }}</h1>
+                            <div class="mb-4 flex justify-center lg:justify-start gap-1 flex-wrap">
                                 <span v-for="stack in project.tech" :key="stack.id"
-                                    class="inline-flex items-center rounded-md bg-[#0E6CC2] px-2 py-1 text-xs text-white font-extrabold tracking-widest">{{
-                            stack.name }}</span>
+                                    class="inline-flex items-center rounded bg-[#0E6CC2] px-2 py-1 text-xs text-white font-extrabold tracking-widest">{{
+                                        stack.name }}</span>
                             </div>
+                            <p class="mt-2 text-gray-600  mx-auto lg:mx-0 text-justify"> {{ project.description }} </p>
                         </div>
                     </div>
                 </div>
@@ -62,25 +62,25 @@ import { eRegistrationUI, ermsUI, dtsUI, csisUI } from '@/assets/images';
 const projectList = [
     {
         id: 'project-1',
-        title: 'Records Management System',
-        description: 'A management system that allows Philippine Charity Sweepstakes Office to process every record and document. The system makes non-confidential papers and other PCSO content searchable, readable, and printable for the general public over the intranet.',
-        img: ermsUI,
+        title: 'Document Tracking System',
+        description: 'A tracking system designed to efficiently manage and monitor the flow of important documents within the institution. It streamlines processes such as submission, review, approval, ensuring transparency, accountability, and compliance with relevant regulations.',
+        img: dtsUI,
         tech: [
             {
                 id: 'stack-1',
-                name: 'BLAZOR',
+                name: 'VUE 2',
             },
             {
                 id: 'stack-2',
-                name: '.NET CORE',
+                name: 'LARAVEL 8',
             },
             {
                 id: 'stack-3',
-                name: 'MSSQL',
+                name: 'MySQL',
             },
             {
                 id: 'stack-4',
-                name: 'MUDBLAZOR',
+                name: 'VUETIFY',
             },
             {
                 id: 'stack-5',
@@ -90,9 +90,9 @@ const projectList = [
     },
     {
         id: 'project-2',
-        title: 'Charity Services Information System',
-        description: 'An information system designed to support people looking for financial assistance for medical problems. It is based on the idea of increasing their funds and is carried out in collaboration with public and private hospitals, clinics, pharmacies, and other partners.',
-        img: csisUI,
+        title: 'Online Event Registration',
+        description: 'A digital platform designed to facilitate the seamless registration process for citizens attending agency-hosted events and activities. Through this system, individuals can easily sign up for events, workshops, and seminars, providing necessary information and preferences.',
+        img: eRegistrationUI,
         tech: [
             {
                 id: 'stack-1',
@@ -100,7 +100,7 @@ const projectList = [
             },
             {
                 id: 'stack-2',
-                name: '.NET CORE',
+                name: '.NET 6',
             },
             {
                 id: 'stack-3',
@@ -118,9 +118,9 @@ const projectList = [
     },
     {
         id: 'project-3',
-        title: 'Online Event Registration',
-        description: 'A digital platform designed to facilitate the seamless registration process for citizens attending agency-hosted events and activities. Through this system, individuals can easily sign up for events, workshops, and seminars, providing necessary information and preferences.',
-        img: eRegistrationUI,
+        title: 'Charity Services Information System',
+        description: 'An information system designed to support people looking for financial assistance for medical problems. It is based on the idea of increasing their funds and is carried out in collaboration with public and private hospitals, clinics, pharmacies, and other partners.',
+        img: csisUI,
         tech: [
             {
                 id: 'stack-1',
@@ -128,7 +128,7 @@ const projectList = [
             },
             {
                 id: 'stack-2',
-                name: '.NET CORE',
+                name: '.NET 8',
             },
             {
                 id: 'stack-3',
@@ -146,25 +146,25 @@ const projectList = [
     },
     {
         id: 'project-4',
-        title: 'Document Tracking System',
-        description: 'A tracking system designed to efficiently manage and monitor the flow of important documents within the institution. It streamlines processes such as submission, review, approval, ensuring transparency, accountability, and compliance with relevant regulations.',
-        img: dtsUI,
+        title: 'Records Management System',
+        description: 'A management system that allows Philippine Charity Sweepstakes Office to process every record and document. The system makes non-confidential papers and other PCSO content searchable, readable, and printable for the general public over the intranet.',
+        img: ermsUI,
         tech: [
             {
                 id: 'stack-1',
-                name: 'VUE',
+                name: 'BLAZOR',
             },
             {
                 id: 'stack-2',
-                name: 'LARAVEL',
+                name: '.NET 8',
             },
             {
                 id: 'stack-3',
-                name: 'MySQL',
+                name: 'MSSQL',
             },
             {
                 id: 'stack-4',
-                name: 'VUETIFY',
+                name: 'MUDBLAZOR',
             },
             {
                 id: 'stack-5',
