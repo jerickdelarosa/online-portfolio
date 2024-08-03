@@ -118,7 +118,7 @@ const projectList = [
     },
     {
         id: 'project-3',
-        title: 'Charity Services Information System',
+        title: 'Medical Assistance Prgoram System',
         description: 'An information system designed to support people looking for financial assistance for medical problems. It is based on the idea of increasing their funds and is carried out in collaboration with public and private hospitals, clinics, pharmacies, and other partners.',
         img: csisUI,
         tech: [
