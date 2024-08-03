@@ -47,6 +47,7 @@ import {
     blazor,
     bootstrap,
     laravel,
+    dotnet,
     sass,
     tailwind,
     typescript,
@@ -56,7 +57,7 @@ import {
     javascript,
     mysql,
     mssql,
-    codeigniter
+    microsoftdotnet
 } from '@/assets/stack-icons/index'
 
 const stack1 = [
@@ -103,11 +104,7 @@ const stack4 = [
     },
     {
         id: "stack4-2",
-        icon: codeigniter
-    },
-    {
-        id: "stack4-3",
-        icon: aspnet
+        icon: microsoftdotnet
     }
 ]
 
