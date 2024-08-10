@@ -1,14 +1,31 @@
-# online-portfolio
+## Online Portfolio
+Hi there! I’m Jerick Dela Rosa, and this is my online portfolio. Here, you’ll find all of my accomplished work, showcasing my skills and projects as a Web Developer. Feel free to explore and get in touch if you’d like to collaborate or learn more about what I do. Thanks for stopping by!
 
-This template should help get you started developing with Vue 3 in Vite.
+## Tech used
+<ul>
+  <li>JS Framework: Vue 3</li>
+  <li>CSS Framework: Tailwind CSS</li>
+  <li>UI Library: PrimeVue</li>
+  <li>Tool: Vite</li>
+  <li>Web host: Vercel</li>
+</ul>
 
-## Recommended IDE Setup
+## Core Features
+<ul>
+  <li>Hero</li>
+  <li>Tech stack</li>
+  <li>About me</li>
+  <li>Projects</li>
+  <li>Contact</li>
+</ul>
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+
+
+<br>
+<br>
 
 ## Project Setup
 
