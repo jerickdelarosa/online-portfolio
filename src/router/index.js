@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 /* NAVIGATION */
-import MainNav from '@/components/navigation/MainNav.vue'
+import MainNav from '@/pages/navigation/MainNav.vue'
 
 /* COMPONENTS */
 import HomeView from '@/views/HomeView.vue'

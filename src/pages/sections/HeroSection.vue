@@ -31,7 +31,7 @@
 </template>
 
 <script setup>
-import TechStackSection from '@/components/sections/TechStackSection.vue'
+import TechStackSection from '@/pages/sections/TechStackSection.vue'
 import { heroImage } from '@/assets/images'
 import { linkedinBlackLogo, githubBlackLogo } from '@/assets/icons';
 

@@ -1,9 +1,9 @@
 <script setup>
-import HeroSection from '@/components/sections/HeroSection.vue'
-import AboutSection from '@/components/sections/AboutSection.vue'
-import ProjectsSection from '@/components/sections/ProjectsSection.vue'
-import ContactSection from '@/components/sections/ContactSection.vue'
-import FooterSection from '@/components/sections/FooterSection.vue'
+import HeroSection from '@/pages/sections/HeroSection.vue'
+import AboutSection from '@/pages/sections/AboutSection.vue'
+import ProjectsSection from '@/pages/sections/ProjectsSection.vue'
+import ContactSection from '@/pages/sections/ContactSection.vue'
+import FooterSection from '@/pages/sections/FooterSection.vue'
 
 </script>
 
