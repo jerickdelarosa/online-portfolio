@@ -13,7 +13,7 @@
                 <div class="w-full">
                     <div class="container flex flex-col items-center gap-16 mx-auto my-6">
                         <div class="grid w-full grid-cols-1 gap-5 lg:grid-cols-3">
-                            <div v-for="contact in contacts" :key="`contact-item-${contact.id}`" class="flex flex-col items-center gap-3 px-4 py-8 bg-white rounded-3xl shadow-main" >
+                            <div v-for="contact in contacts" :key="`contact-item-${contact.id}`" class="hover:border hover:scale-105 transition ease-in-out duration-300 flex flex-col items-center gap-3 px-4 py-8 bg-white hover:bg-[#f9f9f9] rounded-md shadow-main" >
                                 <span>
                                     <component :is="contact.icon" class="h-9 w-9 text-[#0E6CC2]" aria-hidden="true" />
                                 </span>

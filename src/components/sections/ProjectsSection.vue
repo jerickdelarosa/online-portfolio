@@ -57,7 +57,7 @@
 
 <script setup>
 import { uiDesign } from '@/assets/icons';
-import { eRegistrationUI, ermsUI, dtsUI, csisUI } from '@/assets/images';
+import { eRegistrationUI, ermsUI, dtsUI, mapUI, charityUI } from '@/assets/images';
 
 const projectList = [
     {
@@ -118,9 +118,9 @@ const projectList = [
     },
     {
         id: 'project-3',
-        title: 'Medical Assistance Prgoram System',
+        title: 'Medical Assistance Program System',
         description: 'An information system designed to support people looking for financial assistance for medical problems. It is based on the idea of increasing their funds and is carried out in collaboration with public and private hospitals, clinics, pharmacies, and other partners.',
-        img: csisUI,
+        img: mapUI,
         tech: [
             {
                 id: 'stack-1',
@@ -149,6 +149,34 @@ const projectList = [
         title: 'Records Management System',
         description: 'A management system that allows Philippine Charity Sweepstakes Office to process every record and document. The system makes non-confidential papers and other PCSO content searchable, readable, and printable for the general public over the intranet.',
         img: ermsUI,
+        tech: [
+            {
+                id: 'stack-1',
+                name: 'BLAZOR',
+            },
+            {
+                id: 'stack-2',
+                name: '.NET 8',
+            },
+            {
+                id: 'stack-3',
+                name: 'MSSQL',
+            },
+            {
+                id: 'stack-4',
+                name: 'MUDBLAZOR',
+            },
+            {
+                id: 'stack-5',
+                name: 'BOOTSTRAP',
+            }
+        ],
+    },
+    {
+        id: 'project-5',
+        title: 'Charity Summit 2024 Registration',
+        description: 'A web-based application designed to streamline the registration process for attendees of the Charity Summit 2024 event. This system enables users to easily sign up, manage their event preferences, and receive confirmations through an intuitive and user-friendly interface',
+        img: charityUI,
         tech: [
             {
                 id: 'stack-1',
