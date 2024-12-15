@@ -5,6 +5,8 @@ import eRegistrationUI from './e-registration-ui.png'
 import ermsUI from './erms-ui.png'
 import charityUI from './charity-summit-ui.jpg'
 import mapUI from './map-ui.jpg'
+import cmsUI from './content-management-ui.png'
+import csmUI from './client-satisfactory-ui.png'
 
 
 export {
@@ -14,5 +16,7 @@ export {
     ermsUI,
     heroImage,
     charityUI,
-    mapUI
+    mapUI,
+    cmsUI,
+    csmUI
 }
