@@ -13,13 +13,13 @@
                 <div class="w-full">
                     <div class="container flex flex-col items-center gap-16 mx-auto my-6">
                         <div class="grid w-full grid-cols-1 gap-5 lg:grid-cols-3">
-                            <div v-for="contact in contacts" :key="`contact-item-${contact.id}`" class="hover:border hover:scale-105 transition ease-in-out duration-300 flex flex-col items-center gap-3 px-4 py-8 bg-white hover:bg-[#f9f9f9] rounded-md shadow-main" >
+                            <a v-for="contact in contacts" :key="`contact-item-${contact.id}`"target="_blank" :href="contact.link" class="hover:border hover:scale-105 transition ease-in-out duration-300 flex flex-col items-center gap-3 px-4 py-8 bg-white hover:bg-[#f9f9f9] rounded-md shadow-main" >
                                 <span>
                                     <component :is="contact.icon" class="h-9 w-9 text-[#0E6CC2]" aria-hidden="true" />
                                 </span>
                                 <p class="text-xl font-extrabold text-[#2d2e32]">{{contact.title}}</p>
-                                <a class="text-lg text-gray-500 hover:text-[#0E6CC2]" target="_blank" :href="contact.link">{{contact.description}}</a>
-                            </div>
+                                <p class="text-lg text-gray-500 hover:text-[#0E6CC2]">{{contact.description}}</p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ const contacts = [
         title: 'Location',
         description: 'Hagonoy, Bulacan, PH',
         icon: MapPinIcon,
-        link: 'https://maps.app.goo.gl/PGcCXJhjycSChDia8',
+        link: 'https://www.google.com/maps/place/Hagonoy,+Bulacan/@14.8189952,120.6324293,12z/data=!3m1!4b1!4m6!3m5!1s0x33965020099d9671:0x27356e31a53fd020!8m2!3d14.791933!4d120.734995!16zL20vMDZwdnlm?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D',
     },
     {
         id: 2,
