@@ -18,7 +18,7 @@
                                     <component :is="contact.icon" class="h-9 w-9 text-[#0E6CC2]" aria-hidden="true" />
                                 </span>
                                 <p class="text-xl font-extrabold text-[#2d2e32]">{{contact.title}}</p>
-                                <p class="text-lg text-gray-500 hover:text-[#0E6CC2]">{{contact.description}}</p>
+                                <p class="text-lg text-gray-500">{{contact.description}}</p>
                             </a>
                         </div>
                     </div>
