@@ -57,7 +57,7 @@
 
 <script setup>
 import { uiDesign } from '@/assets/icons';
-import { eRegistrationUI, ermsUI, dtsUI, mapUI, charityUI } from '@/assets/images';
+import { eRegistrationUI, ermsUI, dtsUI, mapUI, charityUI, csmUI, cmsUI } from '@/assets/images';
 
 const projectList = [
     {
@@ -177,6 +177,62 @@ const projectList = [
         title: 'Charity Summit 2024 Registration',
         description: 'A web-based application designed to streamline the registration process for attendees of the Charity Summit 2024 event. This system enables users to easily sign up, manage their event preferences, and receive confirmations through an intuitive and user-friendly interface',
         img: charityUI,
+        tech: [
+            {
+                id: 'stack-1',
+                name: 'BLAZOR',
+            },
+            {
+                id: 'stack-2',
+                name: '.NET 8',
+            },
+            {
+                id: 'stack-3',
+                name: 'MSSQL',
+            },
+            {
+                id: 'stack-4',
+                name: 'MUDBLAZOR',
+            },
+            {
+                id: 'stack-5',
+                name: 'BOOTSTRAP',
+            }
+        ],
+    },
+    {
+        id: 'project-6',
+        title: 'Website Content Management System',
+        description: "A user-friendly web application that allows authorized personnel to easily manage and update content on the Philippine Charity Sweepstakes Office's website. It simplifies the process of publishing cotejo, announcements, and other key information, ensuring timely and accurate updates for the public.",
+        img: cmsUI,
+        tech: [
+            {
+                id: 'stack-1',
+                name: 'BLAZOR',
+            },
+            {
+                id: 'stack-2',
+                name: '.NET 8',
+            },
+            {
+                id: 'stack-3',
+                name: 'MSSQL',
+            },
+            {
+                id: 'stack-4',
+                name: 'MUDBLAZOR',
+            },
+            {
+                id: 'stack-5',
+                name: 'BOOTSTRAP',
+            }
+        ],
+    },
+    {
+        id: 'project-5',
+        title: 'Client Satisfactory Measurement',
+        description: 'A digital platform designed to gather customer feedback via questionnaires. It allows the company to effectively assess the quality of its services, pinpoint areas in need of development, and raise client satisfaction levels overall.',
+        img: csmUI,
         tech: [
             {
                 id: 'stack-1',
