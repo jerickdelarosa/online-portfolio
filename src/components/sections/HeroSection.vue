@@ -1,8 +1,8 @@
 <template>
     <section id="home" class="bg-[#f9f9f9] antialiased xl:h-screen">
-        <div class="max-w-screen-xl px-4 pt-24 mx-auto lg:px-6 sm:pt-16 lg:pt-24">
+        <div class="max-w-screen-xl px-4 pt-24 mx-auto lg:px-6 sm:pt-16 lg:pt-24 xl:pt-0 xl:h-full xl:block xl:content-center">
             <div
-                class="container mx-auto flex md:px-24 md:pt-16 md:pb-4 lg:pt-8 lg:pr-8 lg:pb-4 xl:px-32 xl:pt-28 xl:pb-8 lg:flex-row flex-col items-center">
+                class="container mx-auto flex md:px-24 md:pt-16 md:pb-4 lg:pt-8 lg:pr-8 lg:pb-4 xl:px-32 xl:pb-8 lg:flex-row flex-col items-center">
                 <div class="lg:w-full mb-0 flex justify-center lg:order-2">
                     <img class="object-cover object-center rounded-full w-60 h-60 xs:w-72 xs:h-72 lg:w-80 lg:h-80 border-4 border-gray-700"
                         alt="hero_img" :src="heroImage">
