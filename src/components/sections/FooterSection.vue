@@ -4,7 +4,8 @@
             <div
                 class="mx-auto md:mx-12 flex flex-col items-center justify-center sm:flex-row sm:justify-between gap-6">
                 <div>
-                    <span class="text-md text-slate-50 font-extrabold">Copyright © 2024. All rights are reserved</span>
+                    <span class="text-md text-slate-50 font-extrabold">Copyright © {{ new Date().getFullYear() }}. All rights are reserved</span>
+                
                 </div>
                 <div>
                     <div class="flex space-x-4 sm:justify-center sm:mt-0">
