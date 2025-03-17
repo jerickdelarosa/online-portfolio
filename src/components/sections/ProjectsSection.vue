@@ -57,7 +57,7 @@
 
 <script setup>
 import { uiDesign } from '@/assets/icons';
-import { eRegistrationUI, ermsUI, dtsUI, mapUI, charityUI, csmUI, cmsUI } from '@/assets/images';
+import { eRegistrationUI, ermsUI, dtsUI, mapUI, charityUI, csmUI, cmsUI, amsUI } from '@/assets/images';
 
 const projectList = [
     {
@@ -229,10 +229,38 @@ const projectList = [
         ],
     },
     {
-        id: 'project-5',
+        id: 'project-7',
         title: 'Client Satisfactory Measurement',
         description: 'A digital platform designed to gather customer feedback via questionnaires. It allows the company to effectively assess the quality of its services, pinpoint areas in need of development, and raise client satisfaction levels overall.',
         img: csmUI,
+        tech: [
+            {
+                id: 'stack-1',
+                name: 'BLAZOR',
+            },
+            {
+                id: 'stack-2',
+                name: '.NET 8',
+            },
+            {
+                id: 'stack-3',
+                name: 'MSSQL',
+            },
+            {
+                id: 'stack-4',
+                name: 'MUDBLAZOR',
+            },
+            {
+                id: 'stack-5',
+                name: 'BOOTSTRAP',
+            }
+        ],
+    },
+    {
+        id: 'project-8',
+        title: 'Agent Management System',
+        description: "A web-based tool that makes it easier for approved lottery agents to register, be monitored, and track their performance.  It improves lottery operations' efficiency and transparency by processing applications, guaranteeing compliance, and delivering real-time information.",
+        img: amsUI,
         tech: [
             {
                 id: 'stack-1',
