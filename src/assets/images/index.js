@@ -7,6 +7,7 @@ import charityUI from './charity-summit-ui.jpg'
 import mapUI from './map-ui.jpg'
 import cmsUI from './content-management-ui.png'
 import csmUI from './client-satisfactory-ui.png'
+import amsUI from './ams-ui.png'
 
 
 export {
@@ -18,5 +19,6 @@ export {
     charityUI,
     mapUI,
     cmsUI,
-    csmUI
+    csmUI,
+    amsUI
 }
